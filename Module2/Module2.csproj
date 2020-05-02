@@ -2,7 +2,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
     <UseWPF>true</UseWPF>
-    <AssemblyName>Module1</AssemblyName>
+    <AssemblyName>Module2</AssemblyName>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="DevExpress.WindowsDesktop.Wpf.Navigation" Version="20.1.3" />
@@ -10,5 +10,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PrismApp.Core\PrismApp.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Views\Modul2Menu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Views\Modul2Menu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
   </ItemGroup>
 </Project>

@@ -1,8 +1,8 @@
 ﻿using Prism.Mvvm;
 
-namespace Module1.ViewModels
+namespace Module2.ViewModels
 {
-    public class ViewBViewModel : BindableBase
+    public class ViewCViewModel : BindableBase
     {
         private string _message;
         public string Message
@@ -11,9 +11,9 @@ namespace Module1.ViewModels
             set { SetProperty(ref _message, value); }
         }
 
-        public ViewBViewModel()
+        public ViewCViewModel()
         {
-            Message = "View B from Module 1";
+            Message = "View C from Module 2";
         }
     }
 }

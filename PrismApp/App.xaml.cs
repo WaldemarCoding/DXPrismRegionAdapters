@@ -1,8 +1,13 @@
 ﻿using Prism.Ioc;
 using PrismApp.Views;
 using System.Windows;
+using DevExpress.Xpf.Accordion;
 using Module1;
+using Module2;
 using Prism.Modularity;
+using Prism.Regions;
+using PrismApp.Core;
+using PrismApp.Core.RegionAdapters;
 
 namespace PrismApp
 {
@@ -18,12 +23,20 @@ namespace PrismApp
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
-
+            containerRegistry.RegisterSingleton<IApplicationCommands, ApplicationCommands>();
         }
 
         protected override void ConfigureModuleCatalog(IModuleCatalog moduleCatalog)
         {
             moduleCatalog.AddModule<Module1Module>();
+            moduleCatalog.AddModule<Module2Module>();
+        }
+
+        protected override void ConfigureRegionAdapterMappings(RegionAdapterMappings regionAdapterMappings)
+        {
+            base.ConfigureRegionAdapterMappings(regionAdapterMappings);
+            // Custom Adapters
+            regionAdapterMappings.RegisterMapping(typeof(AccordionControl), Container.Resolve<DxAccordionControlRegionAdapter>());
         }
     }
 }

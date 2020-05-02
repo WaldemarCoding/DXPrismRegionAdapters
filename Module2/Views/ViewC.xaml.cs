@@ -1,13 +1,13 @@
 ﻿using System.Windows.Controls;
 
-namespace Module1.Views
+namespace Module2.Views
 {
     /// <summary>
     /// Interaction logic for ViewA.xaml
     /// </summary>
-    public partial class ViewA : UserControl
+    public partial class ViewC : UserControl
     {
-        public ViewA()
+        public ViewC()
         {
             InitializeComponent();
         }

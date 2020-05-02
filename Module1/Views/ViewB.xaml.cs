@@ -3,11 +3,11 @@
 namespace Module1.Views
 {
     /// <summary>
-    /// Interaction logic for ViewA.xaml
+    /// Interaction logic for ViewB.xaml
     /// </summary>
-    public partial class ViewA : UserControl
+    public partial class ViewB : UserControl
     {
-        public ViewA()
+        public ViewB()
         {
             InitializeComponent();
         }
