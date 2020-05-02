@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismApp", "PrismApp\PrismApp.csproj", "{6951FF2C-BE1D-40E3-B3DE-955ED80220DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module1", "Module1\Module1.csproj", "{05C35105-79E4-4B53-9944-B17A9E190EB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismApp.Core", "PrismApp.Core\PrismApp.Core.csproj", "{2685781D-C276-4B2C-B444-4811B4CC7B74}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6951FF2C-BE1D-40E3-B3DE-955ED80220DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6951FF2C-BE1D-40E3-B3DE-955ED80220DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6951FF2C-BE1D-40E3-B3DE-955ED80220DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6951FF2C-BE1D-40E3-B3DE-955ED80220DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05C35105-79E4-4B53-9944-B17A9E190EB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05C35105-79E4-4B53-9944-B17A9E190EB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05C35105-79E4-4B53-9944-B17A9E190EB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05C35105-79E4-4B53-9944-B17A9E190EB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2685781D-C276-4B2C-B444-4811B4CC7B74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2685781D-C276-4B2C-B444-4811B4CC7B74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2685781D-C276-4B2C-B444-4811B4CC7B74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2685781D-C276-4B2C-B444-4811B4CC7B74}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42434427-EC1C-4AF8-94EB-526715D4789F}
+	EndGlobalSection
+EndGlobal
